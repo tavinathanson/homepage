@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Tavi Nathanson",
-  description: "Building software, running comedy shows, and making things.",
+  description: "Software and comedy and stuff.",
 };
 
 export default function RootLayout({

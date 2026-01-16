@@ -8,8 +8,8 @@ export function InjeraTagline() {
 
   return (
     <>
-      <p className="mt-4 text-muted text-xl">
-        I&apos;m also trying to ferment{" "}
+      <span className="text-muted/70">
+        Also trying to ferment{" "}
         <a
           href="https://en.wikipedia.org/wiki/Injera"
           target="_blank"
@@ -26,7 +26,7 @@ export function InjeraTagline() {
           vile
         </button>{" "}
         thus far.
-      </p>
+      </span>
 
       {showModal && (
         <div

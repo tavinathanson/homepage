@@ -95,7 +95,9 @@ export default function Home() {
           <h1 className="text-4xl font-bold tracking-tight md:text-5xl">
             Tavi Nathanson
           </h1>
-          <InjeraTagline />
+          <p className="mt-4 text-muted">
+            Software and comedy and stuff. <InjeraTagline />
+          </p>
         </header>
 
         {/* Projects */}
