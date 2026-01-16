@@ -105,7 +105,7 @@ export default function Home() {
           {projects.map((project) => (
             <article
               key={project.name}
-              className="group flex gap-5 items-start"
+              className="group flex gap-5 items-center"
             >
               <Link
                 href={project.url || project.github || "#"}
@@ -121,7 +121,7 @@ export default function Home() {
                   className="w-28 h-auto"
                 />
               </Link>
-              <div className="pt-1">
+              <div>
                 <h2 className="text-lg font-semibold flex items-center gap-2">
                   {project.url ? (
                     <Link
